@@ -235,3 +235,21 @@ button:hover {
 .dark-mode .username-prompt-toggle {
   color: #a5b4fc;
 }
+
+footer {
+    background-color: var(--footer-bg);
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 1rem;
+    border-top: 4px solid #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.socials-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
