@@ -483,6 +483,25 @@ dark-mode .like-btn .thumbs-icon:hover {
   color: #a5b4fc;
 }
 
+<<<<<<< HEAD
+footer {
+    background-color: var(--footer-bg);
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 1rem;
+    border-top: 4px solid #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.socials-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+=======
 .link-container {
   display: flex;
   align-items: center;
@@ -549,3 +568,4 @@ dark-mode .like-btn .thumbs-icon:hover {
     opacity: 0;
   }
 }
+>>>>>>> 8040211bb3a7e8d1719f468459fb1d2667779608
