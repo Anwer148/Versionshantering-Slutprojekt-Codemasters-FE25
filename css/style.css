@@ -549,3 +549,14 @@ dark-mode .like-btn .thumbs-icon:hover {
     opacity: 0;
   }
 }
+dialog {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5); /* Gör bakgrunden mörkare när pop-upen visas */
+}
