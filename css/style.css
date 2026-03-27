@@ -52,6 +52,11 @@ textarea {
   resize: vertical;
 }
 
+.emojisSelect {
+  font-size: 17px;
+  padding: 4px;
+}
+
 button {
   cursor: pointer;
   border: none;
